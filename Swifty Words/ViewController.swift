@@ -30,7 +30,6 @@ class ViewController: UIViewController {
         cluesLabel.translatesAutoresizingMaskIntoConstraints = false
         cluesLabel.font = UIFont.systemFont(ofSize: 24)
         cluesLabel.text = "CLUES"
-        cluesLabel.backgroundColor = .green
         cluesLabel.numberOfLines = 0
         view.addSubview(cluesLabel)
 
@@ -39,7 +38,6 @@ class ViewController: UIViewController {
         answersLabel.font = UIFont.systemFont(ofSize: 24)
         answersLabel.text = "ANSWERS"
         answersLabel.numberOfLines = 0
-        answersLabel.backgroundColor = .yellow
         answersLabel.textAlignment = .right
         view.addSubview(answersLabel)
 
@@ -52,7 +50,6 @@ class ViewController: UIViewController {
         currentAnswer.textAlignment = .center
         currentAnswer.font = UIFont.systemFont(ofSize: 44)
         currentAnswer.isUserInteractionEnabled = false
-        currentAnswer.backgroundColor = .blue
         view.addSubview(currentAnswer)
 
         let submit = UIButton(type: .system)
@@ -67,7 +64,6 @@ class ViewController: UIViewController {
 
         let buttonsView = UIView()
         buttonsView.translatesAutoresizingMaskIntoConstraints = false
-        buttonsView.backgroundColor = .purple
         view.addSubview(buttonsView)
 
         NSLayoutConstraint.activate([
