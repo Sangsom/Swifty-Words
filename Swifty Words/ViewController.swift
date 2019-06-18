@@ -24,6 +24,7 @@ class ViewController: UIViewController {
             scoreLabel.text = "Score: \(score)"
         }
     }
+    var questionsAnswered = 0
     var level = 1
 
     override func loadView() {
@@ -180,8 +181,9 @@ class ViewController: UIViewController {
 
             currentAnswer.text = ""
             score += 1
+            questionsAnswered += 1
 
-            if score % 7 == 0 {
+            if questionsAnswered % 7 == 0 {
                 let ac = UIAlertController(
                     title: "Well done!",
                     message: "Are you ready for the next level?",
@@ -190,6 +192,7 @@ class ViewController: UIViewController {
                 present(ac, animated: true)
             }
         } else {
+            score -= 1
             let ac = UIAlertController(
                 title: "Wrong answer!",
                 message: "Sorry, your answer was wrong, try again!",
