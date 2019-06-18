@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1ABBA522B8BDDE0021E914 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1B1ABBA322B8BDDE0021E914 /* level1.txt */; };
+		1B1ABBA622B8BDDE0021E914 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1B1ABBA422B8BDDE0021E914 /* level2.txt */; };
 		1BF0BD5022B7C17000250F81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0BD4F22B7C17000250F81 /* AppDelegate.swift */; };
 		1BF0BD5222B7C17000250F81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0BD5122B7C17000250F81 /* ViewController.swift */; };
 		1BF0BD5522B7C17000250F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF0BD5322B7C17000250F81 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B1ABBA322B8BDDE0021E914 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		1B1ABBA422B8BDDE0021E914 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		1BF0BD4C22B7C17000250F81 /* Swifty Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifty Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF0BD4F22B7C17000250F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BF0BD5122B7C17000250F81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		1BF0BD4E22B7C17000250F81 /* Swifty Words */ = {
 			isa = PBXGroup;
 			children = (
+				1B1ABBA322B8BDDE0021E914 /* level1.txt */,
+				1B1ABBA422B8BDDE0021E914 /* level2.txt */,
 				1BF0BD4F22B7C17000250F81 /* AppDelegate.swift */,
 				1BF0BD5122B7C17000250F81 /* ViewController.swift */,
 				1BF0BD5322B7C17000250F81 /* Main.storyboard */,
@@ -122,7 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1ABBA622B8BDDE0021E914 /* level2.txt in Resources */,
 				1BF0BD5A22B7C17100250F81 /* LaunchScreen.storyboard in Resources */,
+				1B1ABBA522B8BDDE0021E914 /* level1.txt in Resources */,
 				1BF0BD5722B7C17100250F81 /* Assets.xcassets in Resources */,
 				1BF0BD5522B7C17000250F81 /* Main.storyboard in Resources */,
 			);
