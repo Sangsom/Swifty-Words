@@ -235,5 +235,16 @@ class ViewController: UIViewController {
         }
     }
 
+    func levelUp(action: UIAlertAction) {
+        level += 1
+        solutions.removeAll(keepingCapacity: true)
+
+        loadLevel()
+
+        for btn in letterButtons {
+            btn.isHidden = false
+        }
+    }
+
 }
 
